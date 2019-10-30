@@ -1,15 +1,11 @@
-class Particle
-{
-  PVector pos;
-  PVector prevPos;
-  PVector v;
-  int scl = 20;
-  int rows, cols;
-  float zoff = 0;
-  int num_Particles = 13000;
-  Particle[] P = new Particle[num_Particles];
-  float inc = 0.04;
-  PVector[] flowfield;
+PVector v;
+int scl = 20;
+int rows, cols;
+float zoff = 0;
+int num_Particles = 13000;
+Particle[] P = new Particle[num_Particles];
+float inc = 0.04;
+PVector[] flowfield;
 
 void setup()
 {
